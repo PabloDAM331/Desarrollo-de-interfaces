@@ -18,6 +18,7 @@ public class VentanaTresEnRaya extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new GridLayout(3, 3, 5, 5)); 
         getContentPane().setBackground(Color.DARK_GRAY);
+        setResizable(false);
 
         // Crear los 9 botones
         for (int i = 0; i < 9; i++) {

@@ -21,6 +21,7 @@ public class CalculadoraVista extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new GridBagLayout());
         getContentPane().setBackground(FONDO);
+        setResizable(false);
 
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.gridx = 0;
@@ -36,6 +37,7 @@ public class CalculadoraVista extends JFrame {
         display.setFont(new Font("Arial", Font.PLAIN, 40));
         display.setBorder(BorderFactory.createLineBorder(new Color(80, 80, 80), 1));
         display.setCaretColor(Color.GREEN);
+        
 
         gbc.gridy = 0;
         gbc.weighty = 0.18;
